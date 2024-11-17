@@ -10,3 +10,5 @@ Sources:
 - https://catalog.data.gov/
 - https://wisqars.cdc.gov/
 - https://nida.nih.gov/
+
+![Title or Description](https://github.com/Micaet/Projekt_1_TWD/blob/main/Rakowski_Ryski_Syrkiewicz.png)
