@@ -4,7 +4,7 @@ library(ggplot2)
 
 
 #Creating data frame
-df <- read.csv("twd_csv.csv", sep=";")
+df <- read.csv("Bar_Plot.csv", sep=";")
 df2 <- df %>% filter(!grepl("Male", Data) & !grepl("Female", Data) & !endsWith(Data, "WITHOUT Synthetic Opioids other than Methadone") & !endsWith(Data, "AND Synthetic Opioids other than Methadone"));
 df3 <- df2[-c(3,6, 7, 8),-c(26)]
 df3$Data <- c("Total Overdose Deaths", "Any Opioid", "Fentanyl", "Heroin", "Cocaine", "Cocaine + Any Opioid", "Cocaine w/o Opioids", "Meth & SAP", "Meth & SAP + Any Opioid", "Meth & SAP w/o Opioids", "Benzodiazepines", "Benzodiazepines + Any Opioid", "Benzodiazepines w/o Opioids", "Antidepressants", "Antidepressants + Any Opioid", "Antidepressants w/o Opioids")
